@@ -315,7 +315,7 @@ function animate(){
 			lossFrame++
 			looseCount = 10
 		}
-		if(lossFrame==10){
+		if(lossFrame==9){
 			lossFrame = 0
 			lost = false
 			presents.push(new present())
